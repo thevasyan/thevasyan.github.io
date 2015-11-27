@@ -1,0 +1,96 @@
+/* Copyright (c) 2015 Evgeny Safonov - for licensing see LICENSE */
+* {
+    font-family: "Arial", "Helvetica", sans-serif;
+    color: #000;
+}
+body .container {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+body {
+    padding:0;
+    margin:0;
+}
+.header {
+    list-style-type: none;
+    display: inline-block;
+}
+.header li {
+    box-sizing: border-box;
+    display: inline-block;
+    background: #eeeeee;
+    padding: 15px;
+    cursor:pointer;
+}
+.header .active {
+    background: #3788fa;
+}
+.header .active a {
+    color: white;
+}
+.header li:hover {
+    background: #3788fa;
+}
+.header li:hover a {
+     color: white;
+}
+.header li a {
+    text-decoration:none;
+    color: #000000;
+}
+.header .header-logo {
+    background: inherit !important;
+}
+.content {
+    margin-top: 3%;
+}
+.header .header-logo .header-logo-image {
+    height:48px;
+    width: auto;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-bottom: -15px;
+    padding: 0;
+}
+body {
+    background: #ffffff;
+}
+.hidden {
+    display: none;
+}
+.col {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col1 {
+    width: 8.33333333%%;
+}
+.col2 {
+    width: 16.66666667%;
+}
+.col3 {
+    width: 25%;
+}
+.col4 {
+    width: 33.33333333%;
+}
+.col6 {
+    width: 50%;
+}
+i {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+.logic {
+    background-image: url(assets/logic3.png);
+    background-size: cover;
+}
+.answer {
+    background-image: url(assets/bright4.png);
+    background-size: cover;
+}
